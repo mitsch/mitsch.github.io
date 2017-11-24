@@ -1,0 +1,12 @@
+# Site settings
+title: Mitsch's Blog
+email: mitsch.koch@gmail.com
+description: "Thoughts and ideas about programming languages and software in general"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: mitsch@twitter
+github_username:  mitsch
+
+# Build settings
+markdown: redcarpet
+permalink: pretty
