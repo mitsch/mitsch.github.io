@@ -5,8 +5,8 @@
     <description>Thoughts and ideas about programming languages and software in general</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 24 Nov 2017 21:31:19 +0100</pubDate>
-    <lastBuildDate>Fri, 24 Nov 2017 21:31:19 +0100</lastBuildDate>
+    <pubDate>Fri, 24 Nov 2017 21:40:00 +0100</pubDate>
+    <lastBuildDate>Fri, 24 Nov 2017 21:40:00 +0100</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -32,6 +32,17 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Extensions Method</title>
+        <description>&lt;h1&gt;Hello World&lt;/h1&gt;
+</description>
+        <pubDate>Fri, 24 Nov 2017 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/2017/11/24/Extensions-Method/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2017/11/24/Extensions-Method/</guid>
+        
         
       </item>
     
