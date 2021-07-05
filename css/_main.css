@@ -1,0 +1,13 @@
+#header {
+    width: 100%;
+    height: 120px;
+    background-color:chartreuse;
+}
+
+#sider {
+    width:50px;
+    height:100px;
+    background-color:darkcyan;
+}
+
+#content {}
