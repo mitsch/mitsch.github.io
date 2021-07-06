@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/_main.css">
+  </head>
+  <body>
+    <div id="outer-header-container">
+      <div id="header">
+        <div>Mitsch's Blog</div>
+      </div>
+    </div>
+    <div id="top-container">
+      <div id="main-container">
+        <div id="sider">
+          <button type="button" onclick="location.href='index.html'">Home</button>
+          <button type="button" onclick="location.href='latest.html'">Latest</button>
+          <button type="button" onclick="location.href='about.html'">About</button>
+        </div>
+        <div id="content">
+          <div class="about-container">
+            <div class="title">About me</div>
+            <div class="paragraph">
+              I am an engineer with Continental working on Artificial Intelligence.
+              There are two topics I am focusing on: Computer Vision and MLOps. The work
+              on Computer Vision resides more towards industrial research rather than
+              particular products. With MLOps, I not only want to push the boundaries of
+              how to effectively use software in our industrial research, but also scout
+              bridges towards business products.
+            </div>
+            <div class="paragraph">
+              I am a long-term enthusiast of certain programming languages, programming
+              paradigms as well software engineering in general. With C and C++, I started
+              to learn to program way back in high school. A third language, I came to
+              love, is Haskell. My day-to-day work life put me in contact with various
+              languages such as Python, Java, JavaScript, Groovy or Bash. Lately, I dove
+              in into the topic of MLOps, where I also started to look onto DevOps, Agile,
+              people in our Industry as well, in particular, communication in our Industry.
+            </div>
+            <div class="paragraph">
+              Lastly, I am a dedicated amateure photographer. I certainly do not raise to
+              any kind of artistique level. Yet, I try my best every time. I want to take
+              the opportunity to springle some results into my writings.
+            </div>
+            <div class="paragraph">
+              Since this is a technical blog, you can catch me on <a href="https://github.com/mitsch">github</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+<div class="home">
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+-->
