@@ -12,7 +12,7 @@ header {
     padding-left: 15%;
 }
 
-header h2 {
+.navigation {
     display: inline;
     margin: 10px 10px 10px 0px;
 }
