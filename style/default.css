@@ -12,6 +12,11 @@ header {
     padding-left: 15%;
 }
 
+header > h2 {
+    display: inline;
+    margin: 10px 10px 10px 0px;
+}
+
 
 .content {
     width: 70%;
